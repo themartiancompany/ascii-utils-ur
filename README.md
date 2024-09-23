@@ -1,4 +1,4 @@
-# `solidity-compiler`
+# `caca-utils`
 
 universal recipe for [user repo](../themartiancompany/ur).
 
