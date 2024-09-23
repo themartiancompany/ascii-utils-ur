@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _pkg=caca-utils
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.0.0.1"
-_commit="5fd328209889868363d398ab89db6a4c2ab191c4"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.1.1"
+_commit="767f582e1146322ad60055b822627053e3882822"
 pkgrel=1
 _pkgdesc=(
   "Caca library utils."
@@ -73,7 +73,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="459873f72d25106e314641dbd11288322b8652ed1ff9f91c7951a02761302bda"
+    _sum="0b9d43f20b6c27f214a787e6bce975266f395e20031271dddc40f675b5dcfc6d"
   fi && \
     source+=(
       "${_tar}"
