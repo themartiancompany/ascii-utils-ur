@@ -1,6 +1,6 @@
 pkgbase = caca-utils
 	pkgdesc = Caca library utils.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.1.1.1.1.1.1
+	pkgver = 0.0.0.0.0.0.0.0.0.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/caca-utils
 	arch = any
@@ -9,10 +9,11 @@ pkgbase = caca-utils
 	makedepends = make
 	depends = libcaca
 	depends = libcrash-bash
-	provides = libcaca-utils=0.0.0.0.0.0.0.0.0.0.0.1.1.1.1.1.1
-	source = caca-utils-b092cf90be1b56fce1c04ca451826ef6fa03a866.zip::https://github.com/themartiancompany/caca-utils/archive/b092cf90be1b56fce1c04ca451826ef6fa03a866.zip
+	depends = sdotool
+	provides = libcaca-utils=0.0.0.0.0.0.0.0.0.1
+	source = caca-utils-738e17baab012e2a4f075907ceb4e5283e035677.zip::https://github.com/themartiancompany/caca-utils/archive/738e17baab012e2a4f075907ceb4e5283e035677.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
 	validpgpkeys = DD6732B02E6C88E9E27E2E0D5FC6652B9D9A6C01
-	sha256sums = 21cd95aacbc804d725f058306a197ca5efaf7537294a94d008c16a28ea18a6f9
+	sha256sums = 04c86a422732afe45026ee87a648d6e89ab46cbcf55f165a824e26f788f311f7
 
 pkgname = caca-utils
