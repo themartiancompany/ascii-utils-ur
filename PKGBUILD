@@ -73,7 +73,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="04c86a422732afe45026ee87a648d6e89ab46cbcf55f165a824e26f788f311f7"
+    _sum='19e837ff5fe8d524c7a9cc0d8349939799dbf90f3c85aa98b65e65719e0f3967'
   fi && \
     source+=(
       "${_tar}"
@@ -106,3 +106,4 @@ package() {
 
 # vim: ft=sh syn=sh et
 
+sha256sums=()
