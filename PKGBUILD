@@ -105,5 +105,3 @@ package() {
 }
 
 # vim: ft=sh syn=sh et
-
-sha256sums=()
