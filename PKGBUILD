@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _pkg=ascii-utils
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.1"
-_commit="9532562119947ffa97de5bb842268ddd8fc84f66"
+pkgver="0.0.0.0.0.0.0.0.0.1.1"
+_commit="61629a15e09adde331c83ef2bff3fe80903fe796"
 pkgrel=1
 _pkgdesc=(
   "ASCII utils."
@@ -73,7 +73,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum='19e837ff5fe8d524c7a9cc0d8349939799dbf90f3c85aa98b65e65719e0f3967'
+    _sum='ac8ae81ab78f879c12f4802de41395d938b90880c52d599e8b82ca51d1f64af1'
   fi && \
     source+=(
       "${_tar}"
