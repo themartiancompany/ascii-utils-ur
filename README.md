@@ -1,4 +1,4 @@
-# `caca-utils`
+# `ascii-utils`
 
 universal recipe for [user repo](../themartiancompany/ur).
 

@@ -5,13 +5,13 @@
 
 _offline="false"
 _git="false"
-_pkg=caca-utils
+_pkg=ascii-utils
 pkgname="${_pkg}"
 pkgver="0.0.0.0.0.0.0.0.0.1"
 _commit="738e17baab012e2a4f075907ceb4e5283e035677"
 pkgrel=1
 _pkgdesc=(
-  "Caca library utils."
+  "ASCII utils."
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
@@ -24,7 +24,7 @@ license=(
   AGPL3
 )
 depends=(
-  "libcaca"
+  "aview"
   "libcrash-bash"
 )
 _os="$( \
