@@ -8,7 +8,7 @@ _git="false"
 _pkg=ascii-utils
 pkgname="${_pkg}"
 pkgver="0.0.0.0.0.0.0.0.0.1"
-_commit="738e17baab012e2a4f075907ceb4e5283e035677"
+_commit="9532562119947ffa97de5bb842268ddd8fc84f66"
 pkgrel=1
 _pkgdesc=(
   "ASCII utils."
@@ -105,3 +105,4 @@ package() {
 }
 
 # vim: ft=sh syn=sh et
+
