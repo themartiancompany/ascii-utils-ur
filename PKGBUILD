@@ -49,7 +49,7 @@ _py="python"
 _pkg=ascii-utils
 pkgname="${_pkg}"
 pkgver="0.0.0.0.0.0.0.0.0.1.1"
-_commit="61629a15e09adde331c83ef2bff3fe80903fe796"
+_commit="fb1c60e0eef45261e326f5b3d6fbe7e739b2fcc1"
 pkgrel=1
 _pkgdesc=(
   "ASCII utils."
@@ -182,4 +182,3 @@ package() {
 }
 
 # vim: ft=sh syn=sh et
-commit fb1c60e0eef45261e326f5b3d6fbe7e739b2fcc1
