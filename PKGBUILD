@@ -48,8 +48,8 @@ fi
 _py="python"
 _pkg=ascii-utils
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.1.1.1"
-_commit="fb1c60e0eef45261e326f5b3d6fbe7e739b2fcc1"
+pkgver="0.0.0.0.0.0.0.0.0.1.1.1.1"
+_commit="e4ddc6ff12b6cd9487fa75c44558251e041940c2"
 pkgrel=1
 _pkgdesc=(
   "ASCII utils."
@@ -112,10 +112,10 @@ fi
 _evmfs_network="100"
 _evmfs_address="0x69470b18f8b8b5f92b48f6199dcb147b4be96571"
 _evmfs_ns="0x87003Bd6C074C713783df04f36517451fF34CBEf"
-_archive_sum='1eedcfbd7136421921f977c0ac884a29b6d0a00fcee136b7074654e4c8fc2af0'
+_archive_sum='60ebd567aa355b3b891fc9db93f8fe6bebe1d9d745f18cc526470faa097f231f'
 _evmfs_archive_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sum}"
 _evmfs_archive_src="${_tarname}.zip::${_evmfs_archive_uri}"
-_archive_sig_sum="185163af4499d78412423a3affbe0ddc9a2c0a96ba993ffb2b4b146a10dbd0c4"
+_archive_sig_sum="e71c9bb478f25a4d247013110cf7c0d057b963105576de313b7b47f4a2b2d531"
 _archive_sig_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sig_sum}"
 _archive_sig_src="${_tarname}.zip.sig::${_archive_sig_uri}"
 if [[ "${_evmfs}" == "true" ]]; then
